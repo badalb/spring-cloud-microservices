@@ -6,7 +6,7 @@
 	<artifactId>service-registry</artifactId>
 	<packaging>jar</packaging>
 
-	<name>service-discovery</name>
+	<name>service-registry</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

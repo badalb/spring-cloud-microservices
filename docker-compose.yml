@@ -1,4 +1,12 @@
-discovery:
+service-registry:
   image: badalb/service-registry
+  hostname: service-registry
   ports:
    - "8761:8761"
+
+uaa:
+  image: badalb/uaa-service
+  ports:
+   - "8040:8040"
+  links:
+   - service-registry

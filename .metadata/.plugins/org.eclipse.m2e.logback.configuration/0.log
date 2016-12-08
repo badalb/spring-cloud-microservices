@@ -1,0 +1,353 @@
+2016-12-08 11:45:43,262 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2016-12-08 11:46:05,141 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:service-registry:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/service-registry/pom.xml.
+2016-12-08 11:46:05,936 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:config-server:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/config-server/pom.xml.
+2016-12-08 11:46:06,098 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:uaa-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/uaa-service/pom.xml.
+2016-12-08 11:46:06,338 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:book-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/book-service/pom.xml.
+2016-12-08 11:46:06,634 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:inventory-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/inventory-service/pom.xml.
+2016-12-08 11:46:06,770 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:review-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/review-service/pom.xml.
+2016-12-08 11:46:06,888 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:hystrix-monitor-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/pom.xml.
+2016-12-08 11:46:07,039 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/api-gateway/pom.xml.
+2016-12-08 11:46:07,871 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/main/java
+2016-12-08 11:46:07,872 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2016-12-08 11:46:07,872 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-server/src/main/resources
+2016-12-08 11:46:07,872 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-server/src/test/java
+2016-12-08 11:46:07,930 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /uaa-service/src/main/java
+2016-12-08 11:46:07,930 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /uaa-service/src/main/resources
+2016-12-08 11:46:07,930 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /uaa-service/src/main/resources
+2016-12-08 11:46:07,931 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /uaa-service/src/test/java
+2016-12-08 11:46:07,998 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2016-12-08 11:46:07,998 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2016-12-08 11:46:07,998 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2016-12-08 11:46:07,999 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2016-12-08 11:46:08,073 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/main/java
+2016-12-08 11:46:08,073 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2016-12-08 11:46:08,073 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service-registry/src/main/resources
+2016-12-08 11:46:08,074 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service-registry/src/test/java
+2016-12-08 11:46:08,149 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /inventory-service/src/main/java
+2016-12-08 11:46:08,149 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /inventory-service/src/main/resources
+2016-12-08 11:46:08,149 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /inventory-service/src/main/resources
+2016-12-08 11:46:08,149 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /inventory-service/src/test/java
+2016-12-08 11:46:08,229 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /review-service/src/main/java
+2016-12-08 11:46:08,229 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /review-service/src/main/resources
+2016-12-08 11:46:08,229 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /review-service/src/main/resources
+2016-12-08 11:46:08,230 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /review-service/src/test/java
+2016-12-08 11:46:08,316 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /book-service/src/main/java
+2016-12-08 11:46:08,316 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /book-service/src/main/resources
+2016-12-08 11:46:08,316 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /book-service/src/main/resources
+2016-12-08 11:46:08,317 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /book-service/src/test/java
+2016-12-08 11:46:08,414 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hystrix-monitor-service/src/main/java
+2016-12-08 11:46:08,414 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hystrix-monitor-service/src/main/resources
+2016-12-08 11:46:08,415 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hystrix-monitor-service/src/main/resources
+2016-12-08 11:46:08,415 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hystrix-monitor-service/src/test/java
+2016-12-08 11:46:08,470 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 8 project(s) in 5 sec
+2016-12-08 11:46:10,814 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:10,820 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:10,834 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:46:10,837 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:10,837 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/api-gateway/src/test/resources
+2016-12-08 11:46:11,483 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:11,483 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:11,485 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 11:46:11,489 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:11,489 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 11:46:11,917 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:11,917 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:11,918 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:46:11,920 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:11,920 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/config-server/src/test/resources
+2016-12-08 11:46:12,761 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:12,761 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:12,762 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:12,764 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:12,764 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 11:46:13,071 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:13,071 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:13,073 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:46:13,074 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:13,074 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/test/resources
+2016-12-08 11:46:13,972 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:13,972 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:13,973 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 11:46:13,976 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:13,977 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/review-service/src/test/resources
+2016-12-08 11:46:14,360 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:14,360 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:14,361 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:46:14,362 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:14,362 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/service-registry/src/test/resources
+2016-12-08 11:46:15,278 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:15,278 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:15,279 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 11:46:15,284 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:15,284 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/uaa-service/src/test/resources
+2016-12-08 11:46:45,966 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:45,968 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:45,969 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:46:45,970 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:45,970 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 11:46:54,362 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:54,362 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:46:54,363 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:46:54,365 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:46:54,365 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 11:53:56,454 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:53:56,455 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:53:56,455 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 11:53:56,456 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:53:56,456 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 11:56:18,287 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:56:18,289 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 11:56:18,290 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 11:56:18,291 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 11:56:18,292 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:01:31,154 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:01:31,155 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:01:31,155 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:01:31,157 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:01:31,157 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:01:34,788 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:01:34,788 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:01:34,789 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:01:34,790 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:01:34,790 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:01:48,139 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:01:48,140 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:01:48,140 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:01:48,142 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:01:48,142 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:03:28,290 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:book-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/book-service/pom.xml.
+2016-12-08 12:03:28,721 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:03:28,721 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:03:28,721 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:03:28,723 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:03:28,723 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:03:30,270 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:03:30,270 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:03:30,271 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:03:30,273 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:03:30,273 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:03:42,622 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:03:42,623 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:03:42,623 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:03:42,624 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:03:42,624 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:08:21,432 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:08:21,433 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:08:21,434 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:08:21,435 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:08:21,435 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:10:23,714 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:10:23,714 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:10:23,715 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:10:23,715 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:10:23,716 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:10:36,080 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:10:36,080 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:10:36,081 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:10:36,082 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:10:36,082 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 12:13:02,284 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:02,284 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:13:02,284 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:13:02,285 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:02,285 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 12:13:10,034 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:10,035 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:13:10,035 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:13:10,036 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:10,037 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:13:16,147 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:16,147 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:13:16,148 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:13:16,149 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:16,149 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:13:27,714 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:book-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/book-service/pom.xml.
+2016-12-08 12:13:28,065 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:28,065 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:13:28,065 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:13:28,066 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:28,066 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:13:29,634 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:29,634 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:13:29,635 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:13:29,637 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:13:29,637 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:19:38,498 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:book-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/book-service/pom.xml.
+2016-12-08 12:19:38,825 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:19:38,825 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:19:38,826 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:19:38,826 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:19:38,827 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:19:40,409 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:19:40,410 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:19:40,413 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:19:40,416 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:19:40,416 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:19:50,767 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:19:50,767 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:19:50,768 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:19:50,769 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:19:50,769 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:21:05,690 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:21:05,691 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:21:05,691 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:21:05,692 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:21:05,692 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 12:22:01,870 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:01,871 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:22:01,871 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:22:01,872 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:01,872 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:22:07,937 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:book-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/book-service/pom.xml.
+2016-12-08 12:22:08,336 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:08,336 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:22:08,336 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:22:08,337 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:08,338 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:22:09,830 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:09,830 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:22:09,831 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:22:09,835 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:09,835 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:22:14,620 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:14,620 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:22:14,620 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:22:14,622 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:22:14,622 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:23:52,876 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:uaa-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/uaa-service/pom.xml.
+2016-12-08 12:23:53,114 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:23:53,114 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:23:53,114 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:23:53,115 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:23:53,115 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/uaa-service/src/test/resources
+2016-12-08 12:24:05,336 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:review-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/review-service/pom.xml.
+2016-12-08 12:24:05,668 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:05,668 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:05,669 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:05,669 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:05,669 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/review-service/src/test/resources
+2016-12-08 12:24:16,245 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:inventory-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/inventory-service/pom.xml.
+2016-12-08 12:24:16,483 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:16,484 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:16,484 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:16,485 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:16,485 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/test/resources
+2016-12-08 12:24:31,181 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:hystrix-monitor-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/pom.xml.
+2016-12-08 12:24:31,414 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:31,414 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:31,414 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:31,415 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:31,415 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 12:24:42,941 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:config-server:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/config-server/pom.xml.
+2016-12-08 12:24:43,060 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:43,060 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:43,060 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:43,061 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:43,061 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/config-server/src/test/resources
+2016-12-08 12:24:54,463 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:book-service:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/book-service/pom.xml.
+2016-12-08 12:24:54,765 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:54,765 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:54,765 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:24:54,766 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:24:54,766 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:25:02,670 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/badalb/microservices/spring-cloud-microservices/api-gateway/pom.xml.
+2016-12-08 12:25:02,883 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:25:02,883 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:25:02,883 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:25:02,884 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:25:02,884 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/api-gateway/src/test/resources
+2016-12-08 12:30:01,226 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:30:01,226 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:30:01,227 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:30:01,228 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:30:01,228 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/api-gateway/src/test/resources
+2016-12-08 12:30:01,343 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:30:01,343 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:30:01,344 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:30:01,344 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:30:01,344 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/api-gateway/src/test/resources
+2016-12-08 12:34:41,530 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:34:41,531 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:34:41,531 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:34:41,532 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:34:41,532 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 12:36:25,516 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:25,516 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:25,516 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:36:25,517 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:25,517 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/api-gateway/src/test/resources
+2016-12-08 12:36:25,878 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:25,879 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:25,879 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:36:25,881 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:25,881 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 12:36:26,041 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:26,041 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:26,042 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:36:26,042 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:26,043 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/config-server/src/test/resources
+2016-12-08 12:36:26,359 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:26,359 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:26,359 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:26,361 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:26,361 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 12:36:26,637 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:26,638 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:26,638 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:36:26,639 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:26,639 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/test/resources
+2016-12-08 12:36:27,005 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:27,006 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:27,007 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:36:27,009 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:27,009 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/review-service/src/test/resources
+2016-12-08 12:36:27,219 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:27,220 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:27,220 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 12:36:27,221 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:27,221 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/service-registry/src/test/resources
+2016-12-08 12:36:27,491 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:27,491 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-12-08 12:36:27,492 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-12-08 12:36:27,493 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 12:36:27,493 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/uaa-service/src/test/resources
+2016-12-08 13:01:04,888 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:04,888 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:04,888 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:04,889 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:04,889 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/uaa-service/src/test/resources
+2016-12-08 13:01:25,903 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:25,903 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:25,903 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:25,904 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:25,904 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/api-gateway/src/test/resources
+2016-12-08 13:01:25,910 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:25,910 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:25,910 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:25,911 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:25,911 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/book-service/src/test/resources
+2016-12-08 13:01:26,073 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,074 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,074 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,074 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,074 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/config-server/src/test/resources
+2016-12-08 13:01:26,268 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,268 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,269 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,269 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,269 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/hystrix-monitor-service/src/test/resources
+2016-12-08 13:01:26,467 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,467 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,467 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,468 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,468 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/test/resources
+2016-12-08 13:01:26,754 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,754 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,754 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,755 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,755 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/review-service/src/test/resources
+2016-12-08 13:01:26,959 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,959 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,959 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-12-08 13:01:26,960 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-08 13:01:26,960 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/badalb/microservices/spring-cloud-microservices/service-registry/src/test/resources

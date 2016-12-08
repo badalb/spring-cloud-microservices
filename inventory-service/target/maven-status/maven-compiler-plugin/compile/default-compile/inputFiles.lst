@@ -1,2 +1,4 @@
-/Users/badalb/test/spring-cloud-microservices/spring-cloud-microservices/inventory-service/src/main/java/com/example/InventoryServiceApplication.java
-/Users/badalb/test/spring-cloud-microservices/spring-cloud-microservices/inventory-service/src/main/java/com/example/restapi/InventoryController.java
+/Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/main/java/com/example/inventoryservice/service/InventoryService.java
+/Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/main/java/com/example/restapi/InventoryController.java
+/Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/main/java/com/example/inventoryservice/service/InventoryServiceImpl.java
+/Users/badalb/microservices/spring-cloud-microservices/inventory-service/src/main/java/com/example/InventoryServiceApplication.java
