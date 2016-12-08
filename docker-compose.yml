@@ -1,0 +1,4 @@
+discovery:
+  image: badalb/service-registry
+  ports:
+   - "8761:8761"

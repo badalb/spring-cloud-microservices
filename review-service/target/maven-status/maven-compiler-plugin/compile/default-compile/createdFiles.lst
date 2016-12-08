@@ -1,0 +1,8 @@
+com/example/reviewservice/repository/ReviewRepository.class
+com/example/reviewservice/vo/ReviewVO.class
+com/example/reviewservice/restapi/ReviewController.class
+com/example/reviewservice/util/DozerBeanUtil.class
+com/example/reviewservice/model/Review.class
+com/example/ReviewServiceApplication.class
+com/example/reviewservice/service/ReviewServiceImpl.class
+com/example/reviewservice/service/ReviewService.class
