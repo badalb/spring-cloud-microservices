@@ -1,8 +1,0 @@
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/vo/ReviewVO.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/service/ReviewServiceImpl.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/service/ReviewService.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/repository/ReviewRepository.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/ReviewServiceApplication.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/restapi/ReviewController.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/model/Review.java
-/Users/badalb/microservices/spring-cloud-microservices/review-service/src/main/java/com/example/reviewservice/util/DozerBeanUtil.java

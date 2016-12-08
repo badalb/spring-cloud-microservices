@@ -1,2 +1,0 @@
-insert into `review` (`created_by`,`isbn`,`review`) values ("John Doe", "9781932394887", "Its a nice book for the begiener.");
-insert into `review` (`created_by`,`isbn`,`review`) values ("Craig Walls", "9781617292545", "The best spring boot book.");

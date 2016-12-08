@@ -1,2 +1,0 @@
-insert into `book` (`author`,`isbn`, `title`) values ("Gavin King", "9781932394887", "Java Persistence with Hobernate");
-insert into `book` (`author`,`isbn`, `title`) values ("Craig Walls King", "9781617292545", "Spring Boot in Action");
