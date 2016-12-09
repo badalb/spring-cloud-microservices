@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: book-service
+
+# Define the Eureka server that handles service registration
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/

@@ -1,0 +1,109 @@
+mysql-db:
+  image: mysql:latest
+  container_name: bookservice-db
+  hostname: localhost
+  ports:
+    - "3307:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: password
+    MYSQL_USER: root
+    MYSQL_PASSWORD: password
+    MYSQL_DATABASE: bookservice
+
+mysql-db2:
+  image: mysql:latest
+  container_name: reviewservice-db
+  hostname: localhost
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: password
+    MYSQL_USER: root
+    MYSQL_PASSWORD: password
+    MYSQL_DATABASE: reviewservice
+    
+service-registry:
+  image: badalb/service-registry
+  hostname: service-registry
+  ports:
+   - "8761:8761"
+   
+book-service:
+  image: badalb/book-service
+  hostname: book-service
+  links:
+    - service-registry
+    - mysql-db
+    - review-service
+    - inventory-service
+  environment:
+     EUREKA_HOST: service-registry
+     EUREKA_PORT: 8761
+     DB_HOST: localhost
+     DB_PORT: 3306
+  ports:
+    - "8070:8070"
+
+review-service:
+  image: badalb/review-service
+  hostname: review-service
+  links:
+    - service-registry
+    - mysql-db2
+  environment:
+     EUREKA_HOST: service-registry
+     EUREKA_PORT: 8761
+     DB_HOST: localhost
+     DB_PORT: 3306
+  ports:
+    - "8050:8050"
+inventory-service:
+  image: badalb/inventory-service
+  hostname: inventory-service
+  links:
+    - service-registry
+  environment:
+     EUREKA_HOST: service-registry
+     EUREKA_PORT: 8761
+  ports:
+    - "8060:8060"
+    
+api-gateway:
+  image: badalb/api-gateway
+  hostname: api-gateway
+  links:
+    - service-registry
+    - uaa-service
+    - book-service
+    - inventory-service
+    - review-service
+  environment:
+     EUREKA_HOST: service-registry
+     EUREKA_PORT: 8761
+  ports:
+    - "8080:8080"
+    
+hystrix-monitor-service:
+  image: badalb/hystrix-monitor-service
+  hostname: hystrix-monitor-service
+  links:
+    - service-registry
+    - book-service
+    - review-service
+    - inventory-service
+  environment:
+     EUREKA_HOST: service-registry
+     EUREKA_PORT: 8761
+  ports:
+    - "9000:9000"
+    
+uaa-service:
+  image: badalb/uaa-service
+  hostname: uaa-service
+  links:
+    - service-registry
+  environment:
+     EUREKA_HOST: service-registry
+     EUREKA_PORT: 8761
+  ports:
+    - "8040:8040"
