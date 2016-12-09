@@ -6,7 +6,7 @@ server:
 security:
   basic:
     enabled: false
-  ignored: /css/**,/js/**,/favicon.ico,/webjars/**,/hystrix.stream/**  
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**,/hystrix.stream/**
   oauth2:
     resource:
       jwt:
@@ -16,12 +16,12 @@ security:
           -----END PUBLIC KEY-----
       id: openid
       serviceId: ${PREFIX:}resource
-
+      
 spring:
   datasource:
-    url:  jdbc:mysql://localhost:3306/bookservice
-    username: root
-    password: password
+    url:  jdbc:mysql://${db.host:localhost}:${db.port:3307}/bookservice
+    username: ${db.username:root}
+    password: ${db.password:password}
   jpa:
     show-sql: true
     hibernate:

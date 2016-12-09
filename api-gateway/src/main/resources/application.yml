@@ -48,3 +48,10 @@ security:
 
 logging:
   level.org.springframework.security: DEBUG
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false

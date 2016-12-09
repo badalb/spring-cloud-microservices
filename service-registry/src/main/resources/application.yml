@@ -15,4 +15,4 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
   server:
-    waitTimeInMsWhenSyncEmpty: 1
+    waitTimeInMsWhenSyncEmpty: 0

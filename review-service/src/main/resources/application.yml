@@ -19,9 +19,10 @@ security:
 
 spring:
   datasource:
-    url:  jdbc:mysql://localhost:3306/reviewservice
-    username: root
-    password: password
+    url:  jdbc:mysql://${db.host:localhost}:${db.port:3306}/reviewservice
+    username: ${db.username:root}
+    password: ${db.password:password}
+
   jpa:
     show-sql: true
     hibernate:
