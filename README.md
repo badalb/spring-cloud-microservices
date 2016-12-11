@@ -30,4 +30,4 @@ Simple spring cloud microservices example with security. The application has the
 
 # Deployment in Docker Containers
 
-![untitled diagram 6](https://cloud.githubusercontent.com/assets/2116198/21081965/7cef6336-bff7-11e6-8f0e-5c778bf671aa.png)
+![untitled diagram 7](https://cloud.githubusercontent.com/assets/2116198/21081982/c3bbe6e0-bff7-11e6-8d56-a5f015ab744f.png)
