@@ -13,4 +13,4 @@ Simple spring cloud microservices example with security. The application has the
 
 # Server side discovery
 
-(https://cloud.githubusercontent.com/assets/2116198/21081533/dffd3aa6-bfee-11e6-8ca0-9ff71063caac.png)
+![server-side-discovery-diagram](https://cloud.githubusercontent.com/assets/2116198/21081533/dffd3aa6-bfee-11e6-8ca0-9ff71063caac.png)
