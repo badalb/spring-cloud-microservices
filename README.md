@@ -8,6 +8,8 @@ Simple spring cloud microservices example with security. The application has the
 
 # Microservice components
 
+![untitled diagram 5](https://cloud.githubusercontent.com/assets/2116198/21081871/c8f5b2a0-bff5-11e6-9995-71833939a33d.png)
+
 ![untitled diagram 4](https://cloud.githubusercontent.com/assets/2116198/21081769/65b013cc-bff3-11e6-8cf1-896e71d853e8.png)
 
 # Server side discovery
