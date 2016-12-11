@@ -27,3 +27,7 @@ Simple spring cloud microservices example with security. The application has the
 # Hystrix Dashboard
 
 ![hystrix-web-console](https://cloud.githubusercontent.com/assets/2116198/21081720/849bee92-bff2-11e6-9c77-5ea3f0124936.png)
+
+# Deployment in Docker Containers
+
+![untitled diagram 6](https://cloud.githubusercontent.com/assets/2116198/21081965/7cef6336-bff7-11e6-8f0e-5c778bf671aa.png)
