@@ -18,3 +18,7 @@ Simple spring cloud microservices example with security. The application has the
 # API Gateway
 
 ![untitled diagram 2](https://cloud.githubusercontent.com/assets/2116198/21081614/c07d7dba-bff0-11e6-8079-60c315b41982.png)
+
+# Ribbon (Client Side Load balancing)
+
+![untitled diagram 3](https://cloud.githubusercontent.com/assets/2116198/21081705/1889d73c-bff2-11e6-979f-e198c8e56027.png)
