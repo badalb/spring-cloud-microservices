@@ -1,4 +1,4 @@
-# Spring cloud microservices
+# Spring Cloud Microservices
 
 Simple spring cloud microservices example with security. The application has the architecture below - 
 
@@ -22,3 +22,7 @@ Simple spring cloud microservices example with security. The application has the
 # Ribbon (Client Side Load balancing)
 
 ![untitled diagram 3](https://cloud.githubusercontent.com/assets/2116198/21081705/1889d73c-bff2-11e6-979f-e198c8e56027.png)
+
+# Hystrix Dashboard
+
+![hystrix-web-console](https://cloud.githubusercontent.com/assets/2116198/21081720/849bee92-bff2-11e6-9c77-5ea3f0124936.png)
