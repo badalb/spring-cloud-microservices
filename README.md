@@ -1,7 +1,10 @@
 # Spring Cloud Microservices
 
-Simple spring cloud microservices example with security. The application has the architecture below
+## Scale Cube
 
+![ch02----scale-cube](https://cloud.githubusercontent.com/assets/2116198/21099267/4cd06ed8-c093-11e6-8983-d6806d6b0343.png)
+
+## Architecture
 
 ![untitled diagram](https://cloud.githubusercontent.com/assets/2116198/21046696/e7758ef6-be2b-11e6-9a36-e9d246a31ca9.png)
 
