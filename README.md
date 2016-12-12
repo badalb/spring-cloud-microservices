@@ -2,7 +2,7 @@
 
 ## Scale Cube
 
-![untitled diagram 2](https://cloud.githubusercontent.com/assets/2116198/21102018/23cc7540-c0a2-11e6-9a8c-b0417e81e432.png)
+![untitled diagram 3](https://cloud.githubusercontent.com/assets/2116198/21102069/6d36ac32-c0a2-11e6-91cc-44b314060acf.png)
 
 ## Architecture
 
