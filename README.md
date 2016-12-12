@@ -63,4 +63,14 @@ All the services are written using spring boot so all the services has a startin
 4. To see application running access the URL http://localhost:8080/books/api/v1/books
    It will take care of redirecting the browser for UAA 
 
+### Run the application from Docker
+
+We have to go to ${BASE_DIR}/spring-cloud-microservices/ and execute $ docker-compose up. It will take care of all the services anlongwith MYSQL DB one by one.
+1. Individual services can be accessed    
+   a. Eureka Service: http://localhost:8761
+   b. API Gateway: http://localhost:8080
+   c. Hystrix Dashboard: http://localhost:9000/hystrix
+2. To see application running access the URL http://localhost:8080/books/api/v1/books
+   It will take care of redirecting the browser for UAA 
+
 
