@@ -40,7 +40,7 @@ Simple spring cloud microservices example with security. The application has the
 
 We can run this application starting individual services or from docker.
 
-### Run the application from starting individual service
+### Run the application by starting individual services
 All the services are written using spring boot so all the services has a starting Application entry point.
 
 1. Book Service and Review service are using MYSQL database so we need to start the docker database first 
@@ -60,7 +60,7 @@ All the services are written using spring boot so all the services has a startin
    a. Eureka Service: http://localhost:8761
    b. API Gateway: http://localhost:8080
    c. Hystrix Dashboard: http://localhost:9000/hystrix
-
-
+4. To see application running access the URL http://localhost:8080/books/api/v1/books
+   It will take care of redirecting the browser for UAA 
 
 
