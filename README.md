@@ -35,3 +35,32 @@ Simple spring cloud microservices example with security. The application has the
 ## Source Control, CI, Docker Pipeline
 
 ![b6zmkdgnwn24jggg74yfjlntzqrqzn7y9abztaxoq8q](https://cloud.githubusercontent.com/assets/2116198/21082039/d78c659a-bff8-11e6-98e4-d67045a86720.png)
+
+## Run the application
+
+We can run this application starting individual services or from docker.
+
+### Run the application from starting individual service
+All the services are written using spring boot so all the services has a starting Application entry point.
+
+1. Book Service and Review service are using MYSQL database so we need to start the docker database first 
+   a. Goto ${BASE_DIR}/spring-cloud-microservices/ and execute $ docker-compose -f docker-db-conpose.yml up
+   b. Alternatively we can create bookservice and reviewservice schema in our local db as flyway can't create the schema
+   c. If we have selected the second approach make sure db connection port has also been updated properly.
+   
+2. Start 
+   a. service-registry
+   b. uaa-service
+   c. book-service
+   d. hystrix-monitor-service
+   e. inventory-service
+   f. review-service
+   g. api-gateway
+3. Individual services can be accessed    
+   a. Eureka Service: http://localhost:8761
+   b. API Gateway: http://localhost:8080
+   c. Hystrix Dashboard: http://localhost:9000/hystrix
+
+
+
+
