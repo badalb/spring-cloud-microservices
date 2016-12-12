@@ -1,7 +1,8 @@
 # Spring Cloud Microservices
 
 ## Scale Cube
-![untitled diagram 1](https://cloud.githubusercontent.com/assets/2116198/21101983/ea7146fe-c0a1-11e6-8a26-c14ee0cf7530.png)
+
+![untitled diagram 2](https://cloud.githubusercontent.com/assets/2116198/21102018/23cc7540-c0a2-11e6-9a8c-b0417e81e432.png)
 
 ## Architecture
 
